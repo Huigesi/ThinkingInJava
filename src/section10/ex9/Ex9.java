@@ -7,7 +7,7 @@ public class Ex9 {
 
                 @Override
                 public void say() {
-                    System.out.println("Ex10");
+                    System.out.println("Ex11");
                 }
             }
             return new Ex10_1();
