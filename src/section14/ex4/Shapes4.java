@@ -25,6 +25,11 @@ class Rhomboid extends Shape {
 }
 
 public class Shapes4 {
+    public static void rotate(Shape shape) {
+        if (!(shape instanceof Circle)) {
+            System.out.println(shape+" rotate");
+        }
+    }
 	public static void main(String[] args) {
 		// upcasting to Shape:
 		List<Shape> shapeList = Arrays.asList(
@@ -42,6 +47,7 @@ public class Shapes4 {
 		}else {
             System.out.println("(Shape)r is not a Circle");
         }
+        rotate(r);
 		// ((Circle)r).draw();
 	}
 }
