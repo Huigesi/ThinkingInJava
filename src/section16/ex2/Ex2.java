@@ -7,11 +7,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Ex2 {
-    public static List<BerylliumSphere> getBery(int size) {
+    public static BerylliumSphere[] getBery(int size) {
         BerylliumSphere berylliumSphere = new BerylliumSphere();
-        List<BerylliumSphere> berylliumSpheres = new ArrayList<>();
+        BerylliumSphere[] berylliumSpheres = new BerylliumSphere[size];
         for (int i = 0; i < size; i++) {
-            berylliumSpheres.add(berylliumSphere);
+            berylliumSpheres[i] = berylliumSphere;
         }
         return berylliumSpheres;
     }
