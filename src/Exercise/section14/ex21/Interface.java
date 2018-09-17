@@ -2,16 +2,9 @@ package Exercise.section14.ex21;
 
 import java.util.Date;
 
-interface Interface {
+public interface Interface {
 	void doSomething();
 	void somethingElse(String arg);
-}
-
-class RealObject implements Interface {
-	public void doSomething() { System.out.println("doSomething"); }
-	public void somethingElse(String arg) {
-		System.out.println("somethingElse " + arg);
-	}
 }
 
 class SimpleProxy implements Interface {
