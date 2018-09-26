@@ -34,7 +34,7 @@ public class TextFile extends ArrayList<String>{
             
             
         } catch (IOException e) {
-            throw new RuntimeException();
+            throw new RuntimeException(e);
         }
         return sb.toString();    
     }//read
@@ -52,7 +52,7 @@ public class TextFile extends ArrayList<String>{
                 out.close();
             }
         } catch (IOException e) {
-            throw new RuntimeException();
+            throw new RuntimeException(e);
         }
     }//write
     
@@ -72,7 +72,8 @@ public class TextFile extends ArrayList<String>{
     //复制文件 写入到   文件
     public void write(String fileName){
         try {
-            PrintWriter out = new PrintWriter(new File(fileName).getAbsoluteFile());
+            PrintWriter out = new PrintWriter(
+                    new File(fileName).getAbsoluteFile());
             try {
                 
                 for (String item : this) {
@@ -102,16 +103,11 @@ public class TextFile extends ArrayList<String>{
         1. 写完整路径  D:\\xx\\xx\\xx\\bigwork\\src\\io\\TextFile.java
         2.相对于此项目（bigwork）的路径（src\io\xxx.java）
         */
-        
-        
+
         // 字母开头的 码值小于  H 
         for (String string : words.headSet("H")) {
             System.out.println(string);
         }
-        
-         
-         
-        
     }
     
     
