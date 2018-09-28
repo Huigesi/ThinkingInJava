@@ -1,5 +1,7 @@
 package Exercise.utils;
 
+import Exercise.enumerated.menu.Food;
+
 import java.util.Random;
 
 public class Enums {
@@ -9,7 +11,8 @@ public class Enums {
         return random(ec.getEnumConstants());
     }
 
-    private static <T extends Enum<T>> T random(T[] values) {
+    public static <T> T random(T[] values) {
         return values[rand.nextInt(values.length)];
     }
+
 }
