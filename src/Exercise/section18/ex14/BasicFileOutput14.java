@@ -1,6 +1,6 @@
 package Exercise.section18.ex14;
 
-import Exercise.section18.io.BufferedInputFile;
+import Exercise.io.BufferedInputFile;
 
 import java.io.*;
 

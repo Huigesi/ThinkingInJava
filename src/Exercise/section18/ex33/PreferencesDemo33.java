@@ -1,7 +1,5 @@
 package Exercise.section18.ex33;
 
-import Exercise.section18.io.PreferencesDemo;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.prefs.Preferences;
