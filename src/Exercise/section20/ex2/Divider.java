@@ -1,4 +1,4 @@
-package Exercise.section20;
+package Exercise.section20.ex2;
 
 import Exercise.annotations.ExtractInterface;
 
