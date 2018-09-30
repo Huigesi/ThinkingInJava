@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jboss-seam-gen-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/gen/src/jboss-seam-gen-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

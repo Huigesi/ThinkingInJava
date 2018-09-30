@@ -20,5 +20,7 @@
     </orderEntry>
     <orderEntry type="library" name="apt-mirror-api-0.2" level="project" />
     <orderEntry type="library" name="tools-1.6" level="project" />
+    <orderEntry type="library" name="jboss-seam-gen-sources" level="project" />
+    <orderEntry type="library" name="javassist" level="project" />
   </component>
 </module>

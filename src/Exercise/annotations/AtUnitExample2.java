@@ -38,7 +38,7 @@ public class AtUnitExample2 {
 
     public static void main(String[] args) {
         OSExecute.command(
-                "java net.mindview.atunit.AtUnitAtUnitExample2"
+                "java Exercise.atunit.AtUnitExample2"
         );
     }
 }
